@@ -26,6 +26,7 @@ To run this application, follow these steps:
     ```
     
 2. Open index.html with any browser.
+3. Or you can preview the application on this link: https://adintelti.github.io/unit-converter/
 
 ## Usage
 
