@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="language-select">
+            <label>
+                <input type="radio" name="language" value="en" checked> English
+            </label>
+            <label>
+                <input type="radio" name="language" value="pt"> Português
+            </label>
+        </div>
+        <header id="header">Unit Converter</header>
+        <div class="tabs">
+            <div class="tab active" data-target="length" id="length-tab">Length</div>
+            <div class="tab" data-target="weight" id="weight-tab">Weight</div>
+            <div class="tab" data-target="temperature" id="temperature-tab">Temperature</div>
+        </div>
+        <div class="content">
+            <div id="length" class="tab-content">
+                <div class="form-group">
+                    <label for="lengthValue" id="length-value-label">Value</label>
+                    <input type="text" id="lengthValue" />
+                </div>
+                <div class="form-group">
+                    <label for="lengthFrom" id="length-fromUnit-label">From Unit</label>
+                    <select id="lengthFrom">
+                        <option value="Meters">Meters</option>
+                        <option value="Kilometers">Kilometers</option>
+                        <option value="Feet">Feet</option>
+                        <option value="Miles">Miles</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="lengthTo" id="length-toUnit-label">To Unit</label>
+                    <select id="lengthTo">
+                    </select>
+                </div>
+                <button id="length-convert-btn" onclick="convertLength()">Convert</button>
+                <div id="lengthResult" class="result"></div>
+            </div>
+
+            <div id="weight" class="tab-content hidden">
+                <div class="form-group">
+                    <label for="weightValue" id="weight-value-label">Value</label>
+                    <input type="text" id="weightValue" />
+                </div>
+                <div class="form-group">
+                    <label for="weightFrom" id="weight-fromUnit-label">From Unit</label>
+                    <select id="weightFrom">
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="weightTo" id="weight-toUnit-label">To Unit</label>
+                    <select id="weightTo">
+                        <option value="Grams">Grams</option>
+                        <option value="Kilograms">Kilograms</option>
+                        <option value="Pounds">Pounds</option>
+                        <option value="Ounces">Ounces</option>
+                    </select>
+                </div>
+                <button id="weight-convert-btn" onclick="convertWeight()">Convert</button>
+                <div id="weightResult" class="result"></div>
+            </div>
+
+            <div id="temperature" class="tab-content hidden">
+                <div class="form-group">
+                    <label for="tempValue" id="temp-value-label">Value</label>
+                    <input type="text" id="tempValue" />
+                </div>
+                <div class="form-group">
+                    <label for="tempFrom" id="temp-fromUnit-label">From Unit</label>
+                    <select id="tempFrom">
+                        <option>Celsius</option>
+                        <option>Fahrenheit</option>
+                        <option>Kelvin</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="tempTo" id="temp-toUnit-label">To Unit</label>
+                    <select id="tempTo">
+                        <option>Celsius</option>
+                        <option>Fahrenheit</option>
+                        <option>Kelvin</option>
+                    </select>
+                </div>
+                <button id="temp-convert-btn" onclick="convertTemperature()">Convert</button>
+                <div id="temperatureResult" class="result"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
