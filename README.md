@@ -11,9 +11,9 @@ Unit-Converter is a simples html web app to convert lenght, weight and temperatu
 ## Features
 
 Convertion types:
-- **Lenght**: Choose between Meters, Kilometers, Feet, and Miles.
-- **Weigth**: Choose between Grams, Kilograms, Pounds, and Ounces.
-- **Temperature**: Choose between Celsius, Fahrenheit, and Kelvin.
+- **Lenght**: Choose convertions between Meters, Kilometers, Feet, and Miles.
+- **Weigth**: Choose convertions between between Grams, Kilograms, Pounds, and Ounces.
+- **Temperature**: Choose convertions between Celsius, Fahrenheit, and Kelvin.
 - **MultiLanguage support**: Choose language between English and Portuguese
 
 ## Installation
