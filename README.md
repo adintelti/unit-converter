@@ -31,10 +31,12 @@ Once the web app is running you can choose a language and do your calculations.
 
 ### Example Usage
 
-Converting 1 Meter to Kilometers(English):
+- Converting 1 Meter to Kilometers(English):
+
 ![image](https://github.com/user-attachments/assets/93b0b2a2-e470-49c0-a91b-a735f40db102)
 
-Converting 1 Meter to Kilometers(Portuguese):
+- Converting 1 Meter to Kilometers(Portuguese):
+
 ![image](https://github.com/user-attachments/assets/f22916db-720c-49ed-98b0-fd5a1dfea4ba)
 
 same goes for other convertion types.
