@@ -4,6 +4,8 @@
 
 Project Task URL: https://roadmap.sh/projects/unit-converter
 
+this web app was created because of the Unit Converter challenge from roadmap.sh.
+
 Unit-Converter is a simples html web app to convert lenght, weight and temperature values.
 
 ## Features
