@@ -1,18 +1,17 @@
 # Unit-Converter web app
 
-Project Task URL: https://roadmap.sh/projects/unit-converter
+Project Task URL: [https://roadmap.sh/projects/unit-converter](https://roadmap.sh/projects/personal-blog)
 
 this web app was created because of the Unit Converter challenge from roadmap.sh.
 
-Unit-Converter is a simples html web app to convert lenght, weight and temperature values.
+Personal Blog is a simple .NET 8 Mvc web app blogging platform where user can create, edit, delete and read one or more articles, using a json file storage and basic authentication middleware to handle security.
 
 ## Features
 
-Convertion types:
-- **Lenght**: Choose convertions between Meters, Kilometers, Feet, and Miles.
-- **Weigth**: Choose convertions between between Grams, Kilograms, Pounds, and Ounces.
-- **Temperature**: Choose convertions between Celsius, Fahrenheit, and Kelvin.
-- **MultiLanguage support**: Choose language between English and Portuguese
+- **Article Management**: Create, read, delete and update article content in stored the file system.
+- **File-Based**: Each article is a single json file name after a random id.
+- **Basic Authentication**: Secure restrict area with username and password.
+- **Html and CSS**: Rendered pages using HTML and CSS for a cleaner design.
 
 ## Installation
 
@@ -20,24 +19,25 @@ To run this application, follow these steps:
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/adintelti/unit-converter.git
+    git clone https://github.com/adintelti/personal-blog.git
     ```
-    
-2. Open index.html with any browser.
-3. Or you can preview the application on this link: https://adintelti.github.io/unit-converter/
-
+2. Navigate to the project directory.
+   ```bash
+    cd personal-blog/PersonalBlogMvc
+    ```
+3. Restore dependencies:
+   ```bash
+    dotnet restore
+    ```
+4. Start the application:
+   ```bash
+    dotnet run
+    ```
+5. Access the application at http://localhost:5142
+   
 ## Usage
 
-Once the web app is running you can choose a language and do your calculations.
+Once the web app is running you can check the lattest articles or access the dashboard area to manage content by adding a "/dashboard" to default address.
 
-### Example Usage
-
-- Converting 1 Meter to Kilometers(English):
-
-![image](https://github.com/user-attachments/assets/93b0b2a2-e470-49c0-a91b-a735f40db102)
-
-- Converting 1 Meter to Kilometers(Portuguese):
-
-![image](https://github.com/user-attachments/assets/f22916db-720c-49ed-98b0-fd5a1dfea4ba)
-
-same goes for other convertion types.
+Username: admin
+Password: password
