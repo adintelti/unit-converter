@@ -1,5 +1,3 @@
-# 
-
 # Unit-Converter web app
 
 Project Task URL: https://roadmap.sh/projects/unit-converter
